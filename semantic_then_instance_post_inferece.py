@@ -26,7 +26,7 @@ parser.add_argument('--root',  dest= "root", default='./Dataset/semanticKITTI/',
 parser.add_argument('--range_y', dest= "range_y", default=64, help="64")
 parser.add_argument('--range_x', dest= "range_x", default=2048, help="2048")
 parser.add_argument('--minimum_points', dest= "minimum_points", default=30, help="minimum_points of each class")
-parser.add_argument('--mode', dest= "mode", default='test', help="val or test; ")
+parser.add_argument('--mode', dest= "mode", default='val', help="val or test; ")
 
 
 args = parser.parse_args()
@@ -68,7 +68,7 @@ label_transfer_dict =CFG["learning_map"]
 
 	
 
-for zzz in range(19,22):
+for zzz in range(11,22):
 	A=LaserScan(project=True, flip_sign=False, H=args.range_y, W=args.range_x, fov_up=3.0, fov_down=-25.0)
 	
 	if args.mode=='test':
@@ -245,7 +245,7 @@ for zzz in range(19,22):
 
 
 
-		plt.imsave('./image/output_example'+str(i)+'.png',np.asarray(color_rgb).astype(np.uint8))
+		plt.imsave('./output_example.png',np.asarray(color_rgb).astype(np.uint8))
 	
 
 		'''
