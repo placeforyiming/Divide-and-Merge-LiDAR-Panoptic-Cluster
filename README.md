@@ -1,4 +1,4 @@
-# Divide-and-merge-LiDAR-Panoptic-Cluster
+# Divide-and-Merge-LiDAR-Panoptic-Cluster
 
 A demo video of our method with semantic prior:
 <br />
