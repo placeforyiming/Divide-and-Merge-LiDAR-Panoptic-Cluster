@@ -5,3 +5,4 @@ method_predictions/*
 PC_cluster/DM_cluster/build/*
 PC_cluster/DM_cluster/third_party/*
 *_test.py
+*/PC_cluster/DM_cluster/DM_Cluster.cpp
