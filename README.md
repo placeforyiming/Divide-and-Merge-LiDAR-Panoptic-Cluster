@@ -7,4 +7,4 @@ A demo video of our method with semantic prior:
 
 More information will be coming soon!
 
-As a Ph.D., I don't have too much time working on engineering optimization. If you are interested in make the algorithm faster and stonger, you are very welcome to contribute.
+As a Ph.D., I don't have too much time working on engineering optimization. If you are interested in making the algorithm faster and stonger, you are very welcome to contribute.
